@@ -1,0 +1,95 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+    background-color: #111111;
+    color: orange;
+}
+
+h1{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 17px;
+    font-family: 'Montserrat',sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+span{
+    color: #ffffff;
+}
+
+ul{
+    width: auto;
+    float: right;
+    margin-top: 5px;
+}
+
+li{
+    display: inline-block;
+    padding: 22px 20px;
+}
+
+a{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2vw;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    margin-right: 90px;
+}
+
+tr:nth-child(odd) {
+    background-color: orange;
+    color: black;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    text-align: center;
+}
+
+th{
+    background-color: #111111;
+    color: orange;
+    padding: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td{
+    padding: 20px;
+}
+
+.nfts{
+    width: 1180px;
+    margin: 30px 30px 30px 30px;
+}
+
+a:hover{
+    color: orange;
+    transition: 0.5s;
+}
+
+.nfts-link{
+    color: orange;
+}
+
+.name{
+    color: orange;
+    margin-top: 15px;
+}
